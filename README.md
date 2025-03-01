@@ -28,6 +28,8 @@ Since the **Payments** service only updates the status of an order to simulate p
 
 For **Notifications**, which require real-time transmission, WebSocket and gRPC were ideal due to their bidirectional traffic capabilities. JavaScript (Node.js with Express) was used to take advantage of asynchronous I/O, improving efficiency for handling multiple simultaneous connections.
 
+Docker was used to containerize the application and ease the deployment.
+
 ### Architecture Overview
 ![System Architecture](./architecture.png)
 
