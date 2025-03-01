@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+service OrdergRPCService {
+    rpc SendOrder (OrderRequest) returns (OrderResponse);
+}
+
+message OrderRequest {
+  int32 id = 1;
+  double value = 2;
+  string description = 3;
+  string status = 4;
+}
+
+message OrderResponse {
+  bool success = 1;
+  string message = 2;
+}
