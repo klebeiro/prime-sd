@@ -74,5 +74,3 @@ To execute the system, run the following command at the root of the project:
 ```sh
 docker-compose up --build
 ```
-
-There is no commit history because initially the project was done remotely in other repository, it was fully migrated for this one.
