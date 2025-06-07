@@ -4,7 +4,8 @@
 With the increasing demand for distributed systems due to their scalability, performance, and resilience, this project was developed to simulate the behavior of a distributed order system. This document details the development stages of this project.
 
 ## DISCLAIMER
-This is a study project, so there are some security issues such as hardcoded links and credentials. These could be easily addressed using environment variables and proper security practices in a production environment. The decision to use only one database was intentional to focus on the communication between the services. In real-world applications, it is common for each service to use its own database.
+- This is a study project, so there are some security issues such as hardcoded links and credentials. These could be easily addressed using environment variables and proper security practices in a production environment.
+- The decision to use only one database was intentional to focus on the communication between the services. In real-world applications, it is common for each service to use its own database.
 
 ## Conception
 Given the project description, we held meetings to analyze the requirements and design an architecture.
